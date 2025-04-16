@@ -3,6 +3,8 @@ node_modules
 **/node_modules
 .pnp
 .pnp.js
+node_modules/@prisma/engines/query_engine-windows.dll.node
+prisma/node_modules/@prisma/client/query_engine-windows.dll.node
 
 # Next.js
 .next/
