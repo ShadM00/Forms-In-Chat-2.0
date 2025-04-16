@@ -1,3 +1,63 @@
-/.env
-/.github
+# Dependencies
 node_modules
+**/node_modules
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+**/.next/
+out/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Cache and Logs
+.turbo
+.cache
+**/.cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing
+coverage
+**/coverage
+.nyc_output
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Production build files
+dist/
+build/
+**/dist
+**/build
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+.netlify
