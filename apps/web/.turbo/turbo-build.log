@@ -1,0 +1,32 @@
+yarn run v1.22.22
+$ next build
+  ▲ Next.js 14.2.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    142 B          87.2 kB
+├ ○ /_not-found                          873 B          87.9 kB
+├ ○ /admin/metrics                       142 B          87.2 kB
+├ ○ /builder                             245 B          87.3 kB
+└ ƒ /form/[formId]                       497 B          87.6 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/1dd3208c-1bfa912d86ba96c5.js  53.6 kB
+  ├ chunks/528-0410ccc2eb71c8a3.js       31.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Done in 14.73s.

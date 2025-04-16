@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function Hero() {
+    return (_jsxs("section", { className: "px-6 py-20 text-center bg-gradient-to-b from-blue-50 to-purple-50", children: [_jsx("h1", { className: "text-4xl md:text-5xl font-bold mb-4", children: "Forms that talk, convert, and adapt." }), _jsx("p", { className: "text-lg text-gray-600 max-w-2xl mx-auto mb-6", children: "AI-powered conversational forms for DMs, bios, QR codes, and mobile apps \u2014 ready in seconds." }), _jsxs("div", { className: "flex justify-center gap-4 mb-10 flex-wrap", children: [_jsx("button", { className: "bg-blue-600 text-white px-6 py-3 rounded", children: "Start Free" }), _jsx("button", { className: "border border-blue-600 text-blue-600 px-6 py-3 rounded", children: "Try Live Demo" })] }), _jsx("div", { className: "max-w-md mx-auto p-6 rounded border bg-white shadow", children: "[Chat Form Preview Placeholder]" })] }));
+}

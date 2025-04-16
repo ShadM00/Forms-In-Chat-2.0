@@ -1,0 +1,27 @@
+{
+  "project": "FormsInChat",
+  "description": "A Kingdom-first, conversational form builder designed to serve, bless, and convert. Built to outperform static form tools like Typeform, Jotform, and Google Forms.",
+  "manifesto": [
+    "We give before we receive",
+    "We serve with intentional generosity",
+    "We solve, not just sell",
+    "We market by helping",
+    "We measure ROI as Return on Impact"
+  ],
+  "designGoals": [
+    "World-class UX",
+    "Mobile-first responsiveness",
+    "Conversational tone",
+    "Gradient branding (blue/purple)",
+    "Fast and accessible forms"
+  ],
+  "modules": [
+    "Layout + Homepage",
+    "Prompt-to-Form Agent",
+    "Distribution Agent",
+    "Form Persistence",
+    "Export & QR Share",
+    "Analytics & Metrics",
+    "Onboarding & Documentation"
+  ]
+}

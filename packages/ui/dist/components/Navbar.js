@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function Navbar() {
+    return (_jsxs("header", { className: "flex justify-between items-center px-6 py-4 border-b bg-white sticky top-0 z-50", children: [_jsx("div", { className: "text-xl font-bold text-blue-600", children: "FormsInChat" }), _jsxs("nav", { className: "space-x-6 text-sm hidden md:flex", children: [_jsx("a", { href: "#features", className: "hover:text-blue-600", children: "Features" }), _jsx("a", { href: "#pricing", className: "hover:text-blue-600", children: "Pricing" }), _jsx("a", { href: "#blog", className: "hover:text-blue-600", children: "Blog" }), _jsx("a", { href: "#login", className: "hover:text-blue-600", children: "Login" }), _jsx("button", { className: "bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700", children: "Start Free" })] })] }));
+}

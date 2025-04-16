@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "tasks": [
+    {
+      "name": "InitializeContextMemory",
+      "description": "Load design principles and context from CONTEXT.md",
+      "prompt": "You are working on a $1M+ production-grade SaaS product called **FormsInChat**. This app allows users to generate conversational, AI-powered forms that live inside DMs, QR codes, stories, or bios.\n\nAlways follow this design policy:\n- World-class visual UX and modular architecture\n- Fully mobile-first, responsive, and accessible\n- Conversational tone, chat-style components\n- TailwindCSS with consistent spacing, typography, and gradients\n- Full test coverage, Storybook, previe..."
+    },
+    {
+      "name": "SetupMonorepoProjectStructure",
+      "description": "Generate a Turbo monorepo with Next.js App Router, Tailwind, and CI setup",
+      "prompt": "Set up a production-grade Turbo monorepo for a Next.js 14+ App Router project with the following:\n- `apps/web` with `/app` directory structure\n- `packages/ui` for shared UI components\n- TailwindCSS, ESLint, Prettier\n- PostHog or Vercel Analytics integration hooks\n- `.github/workflows` CI for build, lint, test\n- Storybook + Screenshot Previews enabled in `packages/ui`\n\nEnsure `layout.tsx` and `page.tsx` exist. Output project tree."
+    }
+  ]
+}

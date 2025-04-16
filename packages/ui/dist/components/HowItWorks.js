@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function HowItWorks() {
+    return (_jsxs("section", { className: "py-20 px-6 bg-gray-50", children: [_jsx("h2", { className: "text-3xl font-bold text-center mb-10", children: "How It Works" }), _jsxs("div", { className: "grid md:grid-cols-3 gap-6 max-w-4xl mx-auto", children: [_jsxs("div", { children: [_jsx("h3", { className: "font-semibold text-lg mb-2", children: "1. Describe your form" }), _jsx("p", { children: "Enter a natural-language prompt." })] }), _jsxs("div", { children: [_jsx("h3", { className: "font-semibold text-lg mb-2", children: "2. Watch it build" }), _jsx("p", { children: "AI builds the schema in seconds." })] }), _jsxs("div", { children: [_jsx("h3", { className: "font-semibold text-lg mb-2", children: "3. Share instantly" }), _jsx("p", { children: "Send via QR code, link, or embed." })] })] })] }));
+}
